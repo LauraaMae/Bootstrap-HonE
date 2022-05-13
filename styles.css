@@ -1,0 +1,127 @@
+
+/* 
+
+
+themes
+
+Yellow - Warning
+White - Light
+Black - Dark
+Cyan - Info
+Blue - Primary
+
+*/
+
+
+.BackgroundColour {
+    background-color: #FC7F66;
+    border-color: #FC7F66;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+/* All page */
+
+.titleMain{
+
+    color: white;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    text-align: center;
+    
+}
+
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+/* Cover page */
+
+.loadingText{
+
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+
+
+
+
+/* Home page */
+
+.topPerson{
+
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+
+.HomeThree {
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+
+
+
+
+/* Membership page */
+
+
+.MembershipBox{
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
